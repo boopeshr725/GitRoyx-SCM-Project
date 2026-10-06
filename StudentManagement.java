@@ -17,10 +17,14 @@ public class StudentManagement {
         System.out.print("Enter marks: ");
         int marks = sc.nextInt();
 
+        System.out.print("Enter department: ");
+        String department = sc.next();
+
         System.out.println("\n----- Student Details -----");
         System.out.println("Student Name : " + name);
         System.out.println("Student ID   : " + id);
         System.out.println("Marks        : " + marks);
+        System.out.println("Department   : " + department);
 
         if (marks >= 50) {
             System.out.println("Result       : PASS");
